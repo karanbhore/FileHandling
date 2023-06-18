@@ -6,7 +6,7 @@ public class FilewriterDemo1 {
 
 	public static void main(String[] args) throws Exception {
 
-		FileWriter fw = new FileWriter("7891.txt");
+		FileWriter fw = new FileWriter("FilewriterDemo1.txt");
 		fw.write(100);
 		fw.write("urga \n Software Solutions");
 		fw.write("\n");
